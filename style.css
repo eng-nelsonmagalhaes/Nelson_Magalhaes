@@ -1,0 +1,66 @@
+/*zerando css */
+*{
+    margin: 50;
+    <!--pading: 20;--!>
+    box-sizing: border-box;
+}
+/*estilizando a tela*/
+html{
+    width: auto;
+    height: auto;
+    font-size: 62.5%;
+    <!--font-family: "lato" sans-serif;--!>
+}
+body{
+    background: url(engenharias2.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+}
+/*estilizanndo menu*/
+header{
+    display: flex;
+    <!--background: url(NelsonPB100.jpg);--!>
+    <!--width: 17%;--!>
+    height: 17vh;
+    flex-direction: row-reverse;
+    justify-content:center;
+    align-items:center;
+    
+    
+}
+.foto{
+    padding: 1%;
+    border-radius: 50%;
+}
+main{
+    font-size: large;
+}
+/*.menu-content{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+
+/*}
+.logo{
+    font-size: 1.8rem;
+}
+.menu-content, .list-items{
+    display: flex ;
+    gap: 30px;
+}*/
+/* desehando os textos conteudo principal*/
+.primary-text{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+shooter{
+    display:inline;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
